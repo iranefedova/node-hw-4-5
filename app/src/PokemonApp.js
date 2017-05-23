@@ -11,8 +11,7 @@ module('PokemonApp')
             template: '<pokemon-list></pokemon-list>'
         }).
         when('/pokemons/:pokemonId', {
-            templateUrl: 'src/PokemonDetail/PokemonDetail.html',
-            controller: 'PokemonDetailCtrl'
+            template: '<pokemon-detail></pokemon-detail>'
         }).
         when('/edit/:pokemonId', {
             templateUrl: 'src/EditPokemon/EditPokemon.html',
